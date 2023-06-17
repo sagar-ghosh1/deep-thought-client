@@ -5,7 +5,7 @@ const All_instructor = () => {
     const [allData, setAllData] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5000/allInstructor?role=instructor")
+        fetch("https://deep-thought-server-sagar-ghosh1.vercel.app/allInstructor?role=instructor")
             .then(res => res.json())
             .then(data => {
                 // console.log(data)

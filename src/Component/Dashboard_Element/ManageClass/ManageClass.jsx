@@ -6,7 +6,7 @@ const ManageClass = () => {
     DynamicTitle("Manage-Class")
     const { data: classes = [] } = useQuery(['user'],
         async () => {
-            const res = await axios.get("http://localhost:5000/classes")
+            const res = await axios.get("https://deep-thought-server-sagar-ghosh1.vercel.app/classes")
             return res.data;
         })
 

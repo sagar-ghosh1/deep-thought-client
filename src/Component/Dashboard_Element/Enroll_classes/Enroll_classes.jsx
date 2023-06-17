@@ -7,7 +7,7 @@ const Enroll_classes = () => {
     const [enroll, setEnroll] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:5000/payments")
+        fetch("https://deep-thought-server-sagar-ghosh1.vercel.app/payments")
             .then(res => res.json())
             .then(data => {
                 // console.log(data)

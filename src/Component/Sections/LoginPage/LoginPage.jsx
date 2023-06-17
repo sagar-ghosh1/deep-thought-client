@@ -42,7 +42,7 @@ const LoginPage = () => {
                 const users = result.user;
                 // console.log(users)
                 const saveData = { name: users.displayName, email: users.email, image: users.photoURL }
-                fetch("http://localhost:5000/user", {
+                fetch("https://deep-thought-server-sagar-ghosh1.vercel.app/user", {
                     method: "POST",
                     headers: {
                         'content-type': 'application/json'

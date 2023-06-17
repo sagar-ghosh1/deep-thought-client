@@ -22,7 +22,7 @@ const Select_classes = () => {
             confirmButtonText: 'Yes, delete it!'
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/course/${id}`, {
+                fetch(`https://deep-thought-server-sagar-ghosh1.vercel.app/course/${id}`, {
                     method: "DELETE"
                 })
                     .then(res => res.json())

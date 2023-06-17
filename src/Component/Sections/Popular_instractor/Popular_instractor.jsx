@@ -8,7 +8,7 @@ const Popular_instructor = () => {
     const [instructor, setInstructor] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5000/top_instructor")
+        fetch("https://deep-thought-server-sagar-ghosh1.vercel.app/top_instructor")
             .then(res => res.json())
             .then(data => {
                 setInstructor(data)

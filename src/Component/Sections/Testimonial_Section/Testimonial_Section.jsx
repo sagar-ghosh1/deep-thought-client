@@ -14,7 +14,7 @@ const Testimonial_Section = () => {
   const [review, setReview] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/review")
+    fetch("https://deep-thought-server-sagar-ghosh1.vercel.app/review")
       .then(res => res.json())
       .then(data => {
         // console.log(data)

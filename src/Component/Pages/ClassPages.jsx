@@ -18,7 +18,7 @@ const ClassPages = () => {
     const [allData, setAllData] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5000/classes")
+        fetch("https://deep-thought-server-sagar-ghosh1.vercel.app/classes")
             .then(res => res.json())
             .then(data => {
                 // console.log("Classes",data)
@@ -31,7 +31,7 @@ const ClassPages = () => {
             const { name, instructor, image, price, seat, status } = item;
             const userInfo = { name, instructor, image, price, seat, email: user?.email, status }
             // console.log("data", userInfo)
-            fetch("http://localhost:5000/course", {
+            fetch("https://deep-thought-server-sagar-ghosh1.vercel.app/course", {
                 method: "POST",
                 headers: {
                     'content-type': 'application/json'

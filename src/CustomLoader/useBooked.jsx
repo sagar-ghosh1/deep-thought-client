@@ -11,7 +11,7 @@ const useBooked = () => {
     const { refetch, data: book = [] } = useQuery({
         queryKey: ['book', user?.email],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/course?email=${user?.email}`, {
+            const res = await fetch(`https://deep-thought-server-sagar-ghosh1.vercel.app/course?email=${user?.email}`, {
                 headers: {
                     authorization: `bearer ${token}`
                 }

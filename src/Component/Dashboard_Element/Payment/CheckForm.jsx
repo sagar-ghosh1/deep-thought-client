@@ -19,7 +19,7 @@ const CheckForm = ({ money, price }) => {
   useEffect(() => {
     // Create PaymentIntent as soon as the page loads
     if (price > 0) {
-      fetch("http://localhost:5000/create-payment-intent", {
+      fetch("https://deep-thought-server-sagar-ghosh1.vercel.app/create-payment-intent", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -96,7 +96,7 @@ const CheckForm = ({ money, price }) => {
         payment: "successful",
       }
       //   console.log(payments)
-      fetch("http://localhost:5000/payments", {
+      fetch("https://deep-thought-server-sagar-ghosh1.vercel.app/payments", {
         method: "POST",
         headers: {
           'content-type': "application/json"

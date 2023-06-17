@@ -14,7 +14,7 @@ const Payment = () => {
   //   console.log(id)
 
   useEffect(() => {
-    fetch(`http://localhost:5000/payment/${id}`)
+    fetch(`https://deep-thought-server-sagar-ghosh1.vercel.app/payment/${id}`)
       .then(res => res.json())
       .then(data => {
         // console.log(data)

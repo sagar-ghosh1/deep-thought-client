@@ -30,7 +30,7 @@ const RegisterPage = () => {
                     .then(() => {
                         // console.log("updated")
                         const SaveData = { name: data.name, email: data.email, image: data.photoURL }
-                        fetch("http://localhost:5000/user", {
+                        fetch("https://deep-thought-server-sagar-ghosh1.vercel.app/user", {
                             method: "POST",
                             headers: {
                                 'content-type': 'application/json'

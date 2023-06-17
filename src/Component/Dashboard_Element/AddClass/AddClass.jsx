@@ -20,7 +20,7 @@ const AddClass = () => {
 
         const classData = { name, image, instructor, email, seat, price, status: "pending" }
 
-        fetch("http://localhost:5000/class", {
+        fetch("https://deep-thought-server-sagar-ghosh1.vercel.app/class", {
             method: "POST",
             headers: {
                 'content-type': "application/json"
