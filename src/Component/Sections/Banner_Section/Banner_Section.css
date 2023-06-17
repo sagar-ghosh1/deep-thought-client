@@ -1,23 +1,26 @@
-.slider{
-    background: url('../../../../public/images/bellet.jpg') no-repeat center top;
+.slider {
+    background: url('https://rb.gy/ogp9x') no-repeat center top;
     background-size: cover;
     position: relative;
     z-index: 1;
 }
-.slider2{
-    background: url('../../../../public/images/tap-dance.jpg') no-repeat center top;
+
+.slider2 {
+    background: url('https://rb.gy/ao0qw') no-repeat center top;
     background-size: cover;
     position: relative;
     z-index: 1;
 }
-.slider3{
-    background: url('../../../../public/images/break\ dance.jpg') no-repeat center top;
+
+.slider3 {
+    background: url('https://rb.gy/scrrl') no-repeat center top;
     background-size: cover;
     position: relative;
     z-index: 1;
 }
-.slider4{
-    background: url('../../../../public/images/hiphop.jpg') no-repeat center top;
+
+.slider4 {
+    background: url('https://rb.gy/q2o9c') no-repeat center top;
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -26,13 +29,13 @@
 .slider::before,
 .slider2::before,
 .slider3::before,
-.slider4::before{
-   position: absolute;
-   content: "";
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-color: rgba(0,0,0,0.75);
-   z-index: -1;
+.slider4::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: -1;
 }
