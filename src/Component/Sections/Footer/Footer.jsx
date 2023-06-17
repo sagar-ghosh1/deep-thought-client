@@ -53,7 +53,7 @@ const Footer = () => {
                </div>
             </div>
             <div className='copyRight'>
-               <p>@ Copyright 2023 by Deep Thought</p>
+               <p>@ Copyright 2023 to 2026 by Deep Thought</p>
             </div>
          </div>
       </footer>
