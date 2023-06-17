@@ -11,6 +11,7 @@ const Main = () => {
                 <div className="mt-[115px]">
                     <Outlet />
                 </div>
+                <AllSection></AllSection>
                 <Footer></Footer>
             </div>
         </>
