@@ -1,0 +1,12 @@
+.testimonial{
+    background-color: var(--bg-white);
+}
+.testimonial .headings{
+     color: var(--heading_tag);
+}
+.testimonial .divider{
+    background-color: var(--divider);
+}
+.para{
+    color: var(--para);
+}

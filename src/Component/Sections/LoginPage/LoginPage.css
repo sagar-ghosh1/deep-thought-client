@@ -1,0 +1,29 @@
+.social-icons ul li{
+    cursor: pointer;
+    margin-right: 36px;
+ }
+ .social-icons ul li a{
+     color: #444;
+     display: flex;
+     width: 50px !important;
+     height: 50px;
+     font-size: 20px;
+     border: 2px solid #444444;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     border-radius: 50px;
+     background: #F5F5F8 !important;
+ }
+ ::-webkit-input-placeholder{
+    font-size: 16px;
+    color: #000;
+ }
+
+
+ @media (min-width: 320px) and (max-width: 576px){
+    .social-icons ul li{
+        cursor: pointer;
+        margin: 0 10px;
+     }
+ }

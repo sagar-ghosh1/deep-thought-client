@@ -1,0 +1,78 @@
+footer{
+    padding: 100px 0 50px;
+    background-color: var(--footer-bg);
+}
+
+.footerBar p{
+   font-size: 16px;
+   line-height: 26px;
+   color: var(--white);
+   padding-right: 100px;
+   margin-top: 20px;
+}
+.footerBar h2{
+    color: var(--footer-color);
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.footerBar div .footerIcon{
+     float: left;
+    font-size: 20px;
+    color: #FFF;
+    margin-right: 12px;
+}
+.footerBar div h3{
+    color: #FFF;
+    font-weight: 600;
+    overflow: hidden;
+    padding-right: 50px;
+}
+.footerBar ul li a{
+    color: #FFF;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.copyRight p{
+    color: #FFF;
+    font-weight: 600;
+    text-align: center; 
+    margin-top: 50px; 
+}
+
+
+@media (min-width: 320px) and (max-width: 576px){
+    footer{
+        padding: 50px 20px;
+    }
+    .footerBar{
+        text-align: center;
+    }
+    .footerBar p{
+        color: var(--white);
+        padding-right: 0px;
+        margin: 40px 0;
+        text-align: center;
+     }
+     .footerBar h2{
+        color: var(--footer-color);
+        letter-spacing: 3px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+     .footerBar div .footerIcon{
+       float: inherit;
+       display: inline;
+       font-size: 26px;
+       color: #FFF;
+       margin-right: 0px;
+       margin-bottom: 16px;
+   }
+   .footerBar div h3{
+       color: #FFF;
+       font-weight: 600;
+       padding-right: 0px;
+   }
+}

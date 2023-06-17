@@ -1,0 +1,13 @@
+.popular_class{
+    background-color: var(--bg-white);
+}
+.popular_class .headings{
+     color: var(--heading_tag);
+}
+.popular_class .divider{
+    background-color: var(--divider);
+}
+.main-card{
+    background: var(--card-bg);
+    border: var(--border);
+}
