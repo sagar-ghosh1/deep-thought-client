@@ -7,14 +7,15 @@ import { AiTwotoneEnvironment } from 'react-icons/ai';
 
 const Footer = () => {
    return (
-      <footer>
+      <footer className='bg-[#3D3D47]'>
          <div className='max-w-[1140px] mx-auto'>
             <div className='flex lg:flex-row flex-col justify-between gap-5'>
                <div className='lg:w-[40%] w-full footerBar'>
                   <Link href="/">
                      <img src={logo} alt="" className="lg:w-[80px] w-[70px] lg:mx-0 mx-auto rounded-full" />
                   </Link>
-                  <p>Deep Thought is a sanctuary for profound contemplation and soulful reflection.</p>
+                  <h3 className='text-amber-400'>Deep Thought</h3>
+                  <p>Deep Thought is a powerful supercomputer depicted in Douglas Adams The Hitchhikers Guide to the Galaxy.Deep Thought is an enigmatic entity known for its profound intellect and philosophical ponderings.</p>
                </div>
 
                <div className='lg:w-[30%] w-full footerBar mb-8'>
@@ -39,6 +40,15 @@ const Footer = () => {
                      <li><Link>Instructors</Link></li>
                      <li><Link>Classes</Link></li>
                      <li><Link>Login</Link></li>
+                  </ul>
+               </div>
+               <div className='lg:w-[30%] w-full footerBar'>
+                  <h2>About Deep Thought</h2>
+                  <ul>
+                     <li><Link>About Us</Link></li>
+                     <li><Link>Our Partners</Link></li>
+                     <li><Link>Careers</Link></li>
+                     <li><Link>Our Staff</Link></li>
                   </ul>
                </div>
             </div>
