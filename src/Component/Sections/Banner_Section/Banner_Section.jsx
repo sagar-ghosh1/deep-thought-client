@@ -50,7 +50,7 @@ const Banner_Section = () => {
                         Deep Thought is a transformative journey of introspection, wisdom, and enlightenment. Through contemplative practices, mindfulness, and profound inquiry, embark on a path of self-discovery, expanded awareness, and profound clarity of thought.</p>
                   </Slide>
                   <div className='lg:text-left text-center'>
-                     <Link className='text-white px-12 py-3 bg-[#5bc77b] transition-all hover:bg-[#77ce53] font-bold rounded-lg '>SEE MORE</Link>
+                     <Link className='text-white px-12 py-3 bg-[#65cc84] transition-all hover:bg-[#77ce53] font-bold rounded-lg '>SEE MORE</Link>
                   </div>
                </div>
             </div>
@@ -67,7 +67,7 @@ const Banner_Section = () => {
                      <p className='text-white lg:text-[20px] text-[18px] text-center lg:text-left font-medium lg:pr-6 pr-0 mb-10'>Deep Thought is an immersive exploration of the profound. Through introspection, meditation, and contemplative practices, delve into the depths of consciousness, expand your understanding, and unlock the transformative power of deep, insightful thinking. Embark on a journey of intellectual and spiritual growth.</p>
                   </Slide>
                   <div className='lg:text-left text-center'>
-                     <Link className='text-white px-12 py-3 bg-[#5bc77b] transition-all hover:bg-[#77ce53] font-bold rounded-lg '>SEE MORE</Link>
+                     <Link className='text-white px-12 py-3 bg-[#65cc84] transition-all hover:bg-[#77ce53] font-bold rounded-lg '>SEE MORE</Link>
                   </div>
                </div>
             </div>
@@ -84,7 +84,7 @@ const Banner_Section = () => {
                      <p className='text-white lg:text-[20px] text-[18px] text-center lg:text-left font-medium lg:pr-6 pr-0 mb-10'>Deep Thought is a sanctuary for profound contemplation and soulful reflection. Through mindfulness, introspective practices, and philosophical inquiry, unlock hidden insights, expand consciousness, and cultivate a rich inner world of wisdom and understanding. Embark on a transformative voyage of deep thought and self-discovery.</p>
                   </Slide>
                   <div className='lg:text-left text-center'>
-                     <Link className='text-white px-12 py-3 bg-[#5bc77b] transition-all hover:bg-[#77ce53] font-bold rounded-lg '>SEE MORE</Link>
+                     <Link className='text-white px-12 py-3 bg-[#65cc84] transition-all hover:bg-[#77ce53] font-bold rounded-lg '>SEE MORE</Link>
                   </div>
                </div>
             </div>
@@ -101,7 +101,7 @@ const Banner_Section = () => {
                      <p className='text-white lg:text-[20px] text-[18px] text-center lg:text-left font-medium lg:pr-6 pr-0 mb-10'>Deep Thought offers a sacred space for deep introspection and expansive wisdom. Through meditation, contemplation, and philosophical exploration, embark on a transformative odyssey to unravel the mysteries of existence, ignite profound insights, and cultivate profound inner growth. Journey into the depths of thought and awaken your true potential.</p>
                   </Slide>
                   <div className='lg:text-left text-center'>
-                     <Link className='text-white px-12 py-3 bg-[#5bc77b] transition-all hover:bg-[#77ce53] font-bold rounded-lg '>SEE MORE</Link>
+                     <Link className='text-white px-12 py-3 bg-[#65cc84] transition-all hover:bg-[#77ce53] font-bold rounded-lg '>SEE MORE</Link>
                   </div>
                </div>
             </div>
