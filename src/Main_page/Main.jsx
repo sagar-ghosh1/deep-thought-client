@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Header from "../Component/Sections/Header/Header";
 import Footer from "../Component/Sections/Footer/Footer";
+import AllSection from "../Component/Pages/AllSection";
 
 const Main = () => {
     return (
