@@ -1,0 +1,38 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+}
+.sidebar::-webkit-scrollbar{
+    display: none;
+}
+.dashboard_menu ul li{
+   padding: 10px 0;
+}
+.dashboard_menu ul li a{
+    font-size: 16px;
+    color: #141414;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+}
+.dashboard_menu ul li a.active{
+    color: royalblue;
+}
+
+
+@media (min-width: 320px) and (max-width: 576px){
+    .sidebar{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        right: 0;
+        transition: all 0.3s ease-in-out;
+    }
+    .sidebar.active{
+        left: 0;
+    }
+    .dashboard_menu ul .links a{
+        font-size: 14px;
+    }
+}
