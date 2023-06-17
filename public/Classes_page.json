@@ -1,0 +1,42 @@
+[
+    {
+        "_id": "945d84jfgfgj6",
+        "name": "Break Dance",
+        "Instructor_name": "Sarah",
+        "image": "https://i.ibb.co/KsRd27K/sarah.jpg",
+        "Available_seats": 25,
+        "price": 285
+    },
+    {
+        "_id": "85jtyj6tyj4ht",
+        "name": "Tap Dance",
+        "Instructor_name": "Ethan Davis",
+        "image": "https://i.ibb.co/7pbj62g/Ethan-Davis.jpg",
+        "Available_seats": 15,
+        "price": 220
+    },
+    {
+        "_id": "jfgtj1355h64fh",
+        "name": "Hip-hop Dance",
+        "Instructor_name": "Malik Johnson",
+        "image": "https://i.ibb.co/FhRSNsv/Malik-Johnson.jpg",
+        "Available_seats": 20,
+        "price": 300
+    },
+    {
+        "_id": "njgh6nj4654yjhr",
+        "name": "Flamenco Dance",
+        "Instructor_name": "Sofia Ramos",
+        "image": "https://i.ibb.co/vxvw1Nw/sofia-ramos.jpg",
+        "Available_seats": 15,
+        "price": 275
+    },
+    {
+        "_id": "3488j4jfj4ytdjy",
+        "name": "Ballet Dance",
+        "Instructor_name": "Isabella Hernandez",
+        "image": "https://i.ibb.co/9VWcLYh/isabella.jpg",
+        "Available_seats": 10,
+        "price": 260
+    }
+]

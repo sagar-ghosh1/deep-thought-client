@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Isabella Hernandez",
+        "Dance_name": "Ballet Dance",
+        "image": "https://i.ibb.co/9VWcLYh/isabella.jpg"
+    },
+    {
+        "name": "Sarah",
+        "Dance_name": "Break Dance",
+        "image": "https://i.ibb.co/KsRd27K/sarah.jpg"
+    },
+    {
+        "name": "Ethan Davis",
+        "Dance_name": "Tap Dance",
+        "image": "https://i.ibb.co/7pbj62g/Ethan-Davis.jpg"
+    },
+    {
+        "name": "Malik Johnson",
+        "Dance_name": "Hip-hop Dance",
+        "image": "https://i.ibb.co/FhRSNsv/Malik-Johnson.jpg"
+    },
+    {
+        "name": "Sofia Ramos",
+        "Dance_name": "Flamenco Dance",
+        "image": "https://i.ibb.co/vxvw1Nw/sofia-ramos.jpg"
+    },
+    {
+        "name": "Zahara Khalil",
+        "Dance_name": "Belly Dance",
+        "image": "https://i.ibb.co/W51ppcQ/Zahara-Khalil.jpg"
+    }
+]
