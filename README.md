@@ -9,4 +9,4 @@
 * If someone wants to delete the product again, I can't take it again.
 * Again, if it doesn't work properly, it will give an error.
 
-live link: 
+live link: https://648dea9e73a33f277cc9e1d9--grand-crepe-235e4e.netlify.app/
