@@ -5,11 +5,13 @@ import Footer from "../Component/Sections/Footer/Footer";
 const Main = () => {
     return (
         <>
-            <Header></Header>
-             <div className="mt-[115px]">
-                <Outlet />
-             </div>
-            <Footer></Footer>
+            <div className="container m-auto">
+                <Header></Header>
+                <div className="mt-[115px]">
+                    <Outlet />
+                </div>
+                <Footer></Footer>
+            </div>
         </>
     );
 };
